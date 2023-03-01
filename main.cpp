@@ -1,8 +1,13 @@
 #include <iostream>
+#include "SDL_Utils.h"
 
-using namespace std;
 
-int main(){
-    cout << "Hello World!";
-    return 0;
+
+int main(int argc,char* argv[]){
+    SDL_Window *window;
+    SDL_Renderer *renderer;
+    initSDL(window,renderer,800,800,"window");
+    waitUntilKeyPressed();
+    quitSDL(window,renderer);
 }
+

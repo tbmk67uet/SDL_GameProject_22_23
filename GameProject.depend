@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1677686019 source:d:\cpp\gameproject\main.cpp
+	<iostream>
+	"SDL_Utils.h"
+
+1677685113 d:\cpp\gameproject\sdl_utils.h
+	<iostream>
+	"SDL.h"
+
+1677685746 source:d:\cpp\gameproject\sdl_utils.cpp
+	"SDL_Utils.h"
+	<chrono>
+
