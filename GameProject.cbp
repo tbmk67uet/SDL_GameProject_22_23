@@ -31,6 +31,8 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="Gallery.cpp" />
+		<Unit filename="Gallery.h" />
 		<Unit filename="SDL_Utils.cpp" />
 		<Unit filename="SDL_Utils.h" />
 		<Unit filename="main.cpp" />

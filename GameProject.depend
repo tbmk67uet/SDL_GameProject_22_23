@@ -1,9 +1,11 @@
 # depslib dependency file v1.0
-1677686019 source:d:\cpp\gameproject\main.cpp
+1677726437 source:d:\cpp\gameproject\main.cpp
 	<iostream>
+	<SDL.h>
 	"SDL_Utils.h"
+	<SDL_image.h>
 
-1677685113 d:\cpp\gameproject\sdl_utils.h
+1677726800 d:\cpp\gameproject\sdl_utils.h
 	<iostream>
 	"SDL.h"
 
