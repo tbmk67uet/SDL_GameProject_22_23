@@ -2,7 +2,7 @@
 #include "Gallery.h"
 #include "SDL_utils.h"
 
-SDL_Texture* loadTexture( std::string path,SDL_Renderer *renderer )
+bool LoadImg( std::string path,SDL_Renderer *renderer )
 {
 
 	SDL_Texture* newTexture = NULL;
@@ -15,5 +15,9 @@ SDL_Texture* loadTexture( std::string path,SDL_Renderer *renderer )
             logSDLError(std::cout, "Unable to create texture from " + path + " SDL Error: " + SDL_GetError());
         SDL_FreeSurface( loadedSurface );
     }
-    return newTexture;
+    return newTexture != NULL;
+}
+
+void render(SDL_Renderer* renderer,const SDL_Rect* clip){
+    SDL_Rect renderquad = {x}
 }

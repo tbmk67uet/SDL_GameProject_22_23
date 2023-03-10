@@ -1,15 +1,53 @@
 # depslib dependency file v1.0
-1677726437 source:d:\cpp\gameproject\main.cpp
+1678352268 source:d:\cpp\gameproject\main.cpp
 	<iostream>
 	<SDL.h>
 	"SDL_Utils.h"
+	"BaseObject.h"
 	<SDL_image.h>
+	"GameMap.h"
 
-1677726800 d:\cpp\gameproject\sdl_utils.h
+1678350764 d:\cpp\gameproject\sdl_utils.h
 	<iostream>
 	"SDL.h"
 
-1677685746 source:d:\cpp\gameproject\sdl_utils.cpp
+1677768893 source:d:\cpp\gameproject\sdl_utils.cpp
 	"SDL_Utils.h"
 	<chrono>
+
+1678240826 source:d:\cpp\gameproject\gallery.cpp
+	<SDL_image.h>
+	"Gallery.h"
+	"SDL_utils.h"
+
+1677727447 d:\cpp\gameproject\gallery.h
+	<iostream>
+	"SDL.h"
+
+1678064849 d:\cpp\gameproject\move.h
+	<SDL.h>
+
+1678064878 source:d:\cpp\gameproject\move.cpp
+	<iostream>
+	"Move.h"
+
+1678202820 source:d:\cpp\gameproject\map.cpp
+
+1678244113 d:\cpp\gameproject\baseobject.h
+	"SDL_Utils.h"
+
+1678351438 source:d:\cpp\gameproject\baseobject.cpp
+	"BaseObject.h"
+	"SDL_Utils.h"
+	<SDL_image.h>
+	<SDL.h>
+
+1678352268 source:d:\cpp\gameproject\gamemap.cpp
+	"BaseObject.h"
+	"GameMap.h"
+	"SDL_Utils.h"
+
+1678352477 d:\cpp\gameproject\gamemap.h
+	"SDL_Utils.h"
+	"BaseObject.h"
 
